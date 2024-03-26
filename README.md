@@ -5,7 +5,7 @@ Additionally, shows how to cleverly hide Sketchfab's default UI controls without
 
 ## How to run
 - Open `index.html` in a browser
-- To hide Sketchfab's default UI controls, un-comment `<link href="hideDefaultUI.css" rel="stylesheet">` in `index.html`
+- To hide Sketchfab's default UI controls, comment out `<link href="showDefaultUI.css" rel="stylesheet">` in `index.html`
 
 ## Credit
 3D Model - [Blender.Lutz](https://sketchfab.com/3d-models/nissan-skyline-r34-gtr-f6da49a2c3e84e87a97823ec16000fbf)
