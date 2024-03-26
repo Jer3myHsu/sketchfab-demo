@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Car</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="style2.css" rel="stylesheet">
+    <script type="text/javascript" src="index.js" defer></script>
+
+    <!-- Insert this script -->
+    <script
+      type="text/javascript"
+      src="https://static.sketchfab.com/api/sketchfab-viewer-1.12.1.js"
+    ></script>
+    <!--  -->
+  </head>
+  <body>
+    <header>
+      <h2>Build & Price</h2>
+      <h1>
+        Select Your Colour and Interior
+      </h1>
+    </header>
+    <div class="left-panel">
+      <div class="block-1"></div>
+      <div class="block-2"></div>
+
+      <!-- Insert iframe -->
+      <iframe id="api-frame"
+        title=""
+        src=""
+        sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
+        allow="autoplay; fullscreen; xr-spatial-tracking"
+        xr-spatial-tracking
+        execution-while-out-of-viewport
+        execution-while-not-rendered web-share
+        allowfullscreen mozallowfullscreen="true"
+        webkitallowfullscreen="true"
+      ></iframe>
+      <!--  -->
+    </div>
+    <div class="right-panel">
+      <h3>Paint Finish</h3>
+      <div class="button-grid">
+        <button style="background-color: white;">
+          Chrome
+        </button>
+        <button style="background-color: white;" disabled>
+          Metallic
+        </button>
+        <button style="background-color: white;" disabled>
+          Matte
+        </button>
+      </div>
+      <h3>Exterior</h3>
+      <div class="button-grid">
+        <button class="exterior-color-button" style="background-color: black;">
+        </button>
+        <button class="exterior-color-button" style="background-color: white;">
+        </button>
+        <button class="exterior-color-button" style="background-color: gray;">
+        </button>
+        <button class="exterior-color-button" style="background-color: red;">
+        </button>
+        <button class="exterior-color-button" style="background-color: blue;">
+        </button>
+        <button class="exterior-color-button" style="background-color: purple;">
+        </button>
+        <button class="exterior-color-button" style="background-color: gold;">
+        </button>
+      </div>
+      <h3>Interior</h3>
+      <div class="button-grid">
+        <button class="interior-color-button" style="background-color: black;">
+        </button>
+        <button class="interior-color-button" style="background-color: tan;">
+        </button>
+      </div>
+      <h3>Rims</h3>
+      <div class="button-grid">
+        <button class="rims-color-button" style="background-color: gray;">
+        </button>
+        <button class="rims-color-button" style="background-color: black;">
+        </button>
+        <button class="rims-color-button" style="background-color: gold;">
+        </button>
+      </div>
+    </div>
+    <footer>
+      <div class="step">
+        <div>1. Model</div>
+        <div>2. Trim</div>
+        <div style="color: crimson;">3. Color</div>
+        <div>4. Accessories</div>
+        <div>5. Review</div>
+      </div>
+        <button>
+          Previous
+        </button>
+        <button>
+          Next
+        </button>
+        <div class="price">$100,000</div>
+    </footer>
+  </body>
+</html>
