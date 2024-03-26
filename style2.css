@@ -1,0 +1,9 @@
+
+.block-1, .block-2 {
+  visibility: hidden;
+}
+
+#api-frame {
+  margin-top: 100px;
+  height: calc(100% - 175px);
+}
